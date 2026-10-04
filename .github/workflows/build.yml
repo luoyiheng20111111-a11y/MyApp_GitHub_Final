@@ -20,7 +20,7 @@ jobs:
       - name: Build
         run: |
           xcodebuild \
-            -project MyApp.xcodeproj \
+            -project MyApp_GitHub/MyApp.xcodeproj \
             -scheme MyApp \
             -configuration Release \
             -sdk iphoneos \
